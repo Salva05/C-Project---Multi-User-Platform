@@ -21,10 +21,13 @@ Level Progression: Users can increase their level by playing a basic game (wordl
 
 The project is structured in a modular manner, with different functionalities encapsulated within separate C files.
 
-database.c: Contains the main execution logic of the program, including user interface and interaction.
-From there, the program connects to it's header files, where the other logics of the porgram lives, such as the root functionalities and the asides. The porgram manages the data by creating .txt files for each registered user, named with the first letter of the name, the last letter of the surname, and the number of total registered users at the moment of registration. That txt file contains user's informations from where the program stores and access/reads/write the informations related to the user's personal area, such as their permissions in the platform, the level, anfd the total experience. The porgram also uses the data.txt to store user's information received at the moment of registration, and an index.txt file wich allos the program to read the amount of total user registered and base the user's operations such as ID number changes, accessing and removing users from the root menu, and it also serves as index for a correct ID generation.
+database.c: This file contains the main execution logic of the program, encompassing the user interface and interaction. The program connects to its header files, housing additional program logic such as core functionalities and auxiliary operations.
+The program manages data by creating .txt files for each registered user, named using a specific convention based on the user's name and surname initials, along with the total number of registered users at the time of registration. These .txt files store user information, facilitating access, reading, and writing operations related to the user's personal area, including permissions, level, and total experience.
+Additionally, the program utilizes data.txt to store user information provided during registration, and an index.txt file to track the total number of registered users, enabling various user operations such as ID number management, accessing, and removal from the root menu. The index.txt file also serves as a reference for correct ID generation.
 
-Usage: The program is meant to be ran from CLI. Download all the files and run database.c within an IDE.
+Usage: The program is designed to be run from the command line interface (CLI). To use it, download all files, create an empty directory and name it "usr", place it where "database.c" is located, and run "database.c" within an integrated development environment (IDE).
+
+Important Note: This program has been developed exclusively for Linux using C. As a result, it is fully compatible only with Linux operating systems. Attempting to run it on other operating systems may trigger a different string management system, leading to disruptions in internal logic and potential bugs.
 
 
 The main menù with the available options, to access the enter the corresponding number
