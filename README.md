@@ -2,9 +2,11 @@
 Welcome to the "Multi-User Platform" project. This is a basic project written in C, designed as a practice exercise focusing on implementing read-write files features in the C programming language.
 
 - C User Authentication and Management System
+  
 This C application serves as a practice project aimed at implementing a basic user authentication and management system. While the project primarily focuses on utilizing text files for data storage, it provides functionalities for user registration, login, and access to personalized user area.
 
 - Features
+  
 User Registration: Users can register on the platform by providing necessary details which are stored in text files.
 
 User Login: Registered users can log in to their accounts securely to access their personalized areas.
