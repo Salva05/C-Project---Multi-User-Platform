@@ -1,5 +1,0 @@
-ROOT USER
-Root_Name # Salvatore
-Email: root@menu.access
-Password: root
-
