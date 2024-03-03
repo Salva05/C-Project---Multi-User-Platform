@@ -27,7 +27,7 @@ Additionally, the program utilizes data.txt to store user information provided d
 
 - Usage
 
-The program is designed to be run from the command line interface (CLI). To use it, download all files, create an empty directory and name it "usr", place it where "database.c" is located, and run "database.c" within an integrated development environment (IDE).
+The program is designed to be run from the command line interface (CLI). To use it, download all files, create an empty directory and name it "usr", place it where "database.c" is located, and run "database.c" from the terminal with the command "./database" (Linux) or within an integrated development environment (IDE).
 
 Important Note: This program has been developed exclusively for Linux using C. As a result, it is fully compatible only with Linux operating systems. Attempting to run it on other operating systems may trigger a different string management system, leading to disruptions in internal logic and potential bugs.
 
