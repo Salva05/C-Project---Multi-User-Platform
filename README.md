@@ -25,7 +25,9 @@ database.c: This file contains the main execution logic of the program, encompas
 The program manages data by creating .txt files for each registered user, named using a specific convention based on the user's name and surname initials, along with the total number of registered users at the time of registration. These .txt files store user information, facilitating access, reading, and writing operations related to the user's personal area, including permissions, level, and total experience.
 Additionally, the program utilizes data.txt to store user information provided during registration, and an index.txt file to track the total number of registered users, enabling various user operations such as ID number management, accessing, and removal from the root menu. The index.txt file also serves as a reference for correct ID generation.
 
-Usage: The program is designed to be run from the command line interface (CLI). To use it, download all files, create an empty directory and name it "usr", place it where "database.c" is located, and run "database.c" within an integrated development environment (IDE).
+- Usage
+
+The program is designed to be run from the command line interface (CLI). To use it, download all files, create an empty directory and name it "usr", place it where "database.c" is located, and run "database.c" within an integrated development environment (IDE).
 
 Important Note: This program has been developed exclusively for Linux using C. As a result, it is fully compatible only with Linux operating systems. Attempting to run it on other operating systems may trigger a different string management system, leading to disruptions in internal logic and potential bugs.
 
