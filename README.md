@@ -1,5 +1,5 @@
 # C-Project---Multi-User-Platform
-Welcome to the "Multi-User Platform" project. This is a basic project written in C, designed as a practice exercise focusing on implementing read-write files features in the C programming language.
+Welcome to the "Multi-User Platform" project. This is a basic project written in C, designed as a practice, focusing on implementing read-write files features in the C programming language.
 
 - C User Authentication and Management System
   
@@ -32,7 +32,7 @@ The program is designed to be run from the command line interface (CLI). To use 
 Important Note: This program has been developed exclusively for Linux using C. As a result, it is fully compatible only with Linux operating systems. Attempting to run it on other operating systems may trigger a different string management system, leading to disruptions in internal logic and potential bugs.
 
 
-The main menù with the available options, to access the enter the corresponding number
+The main menu with the available options, to access the enter the corresponding number
 ![1](https://github.com/Salva05/C-Project---Multi-User-Platform/assets/141848378/f343a068-c91e-4a5d-a493-4669055b576d)
 
 The program handles invalid input porperly
